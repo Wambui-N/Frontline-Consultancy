@@ -1,0 +1,47 @@
+.green {
+    background-color: #0b320c; /* red color */
+    min-width: 100vw;
+}
+
+.orange_bg {
+    background-color: #ec6009;
+}
+.orange {
+    color: #ec6009;
+}
+.white {
+    color: #edfded;
+}
+.text-black {
+    color: #061103;
+}
+
+.logo {
+    max-width: 100%;
+    width: 12rem;
+    height: auto;
+}
+.bg-image-one {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.blur-bg {
+    background-color: rgba(237, 253, 237, 0.15);
+}
+.glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+.arc {
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transform: rotate(-45deg);
+    overflow: hidden;
+}
